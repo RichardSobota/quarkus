@@ -12,9 +12,6 @@ public class GreetingResource {
     public String hello() {
         return "Hello from RESTEasy Reactive";
     }
-<<<<<<< HEAD:src/main/java/org/acme/GreetingResource.java
-}
-=======
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
@@ -22,4 +19,3 @@ public class GreetingResource {
         return "Hello Quarkus";
     }
 }
->>>>>>> main:src/main/java/org/acme/getting/started/GreetingResource.java
